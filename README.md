@@ -1,6 +1,8 @@
 # SpanningTreeProtocol
 STP imlementation in Prolog
 
+Rulare: apelarea predicatului stp din interpretor daca se doreste doar nodul root si arborele de acoperire sau a predicatului drum daca se doreste si gasirea unui drum in retea(o serie de switchuri) intre nodul sursa si noul destinatie.
+
 Rezolvarea porneste de la algoritmul lui Dijkstra. Se determina drumurile de cost
 minim de la nodul Root la fiecare nod din graf, obtinand un vector de parinti.
 Pentru a obtine drumul propriu zis se determina parintele nodului destinatie,
